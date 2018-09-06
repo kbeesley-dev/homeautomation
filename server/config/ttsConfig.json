@@ -1,0 +1,36 @@
+{
+    "authenticationFilename": "HomeAutomationAuthentication.json",
+
+    "audioFilePath": "./audioFiles",
+    "outputFileExtension": "mp3",
+
+    "voice": "voiceBritishFemale",
+    "audioConfig": "audioConfigMP3",
+    
+    "voiceBritishFemale": {
+        "languageCode": "en-GB",
+        "name": "en-GB-Wavenet-C"
+    },
+    "audioConfigMP3": {
+        "audioEncoding": "MP3",
+        "effectsProfileId": [
+          "small-bluetooth-speaker-class-device"
+        ],
+        "pitch": "0.00",
+        "speakingRate": "1.00"
+    },
+    "audioConfigWAV": {
+        "audioEncoding": "LINEAR16",
+        "effectsProfileId": [
+          "small-bluetooth-speaker-class-device"
+        ],
+        "pitch": "0.00",
+        "speakingRate": "1.00"
+    },
+
+    "playSoundOptions": {
+    },
+    "playOptions": {
+        "mplayer": ["-ao","win32"]
+    }
+}
